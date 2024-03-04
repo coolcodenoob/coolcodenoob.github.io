@@ -10,7 +10,45 @@ export default defineUserConfig({
         text: '首页',
         link: '/',
       },
+      {
+        text: 'Java',
+        link: '/',
+      },
+      {
+        text: '算法',
+        link: '/',
+      },
+      {
+        text: '数据库',
+        children: [
+          {
+            text: '数据库基础',
+            children: [{
+              text: 'SQL语言',
+              link: '/md/database/basic/sql-lan/sql-language.md',
+            }],
+          },
+        ],
+      },
+      {
+        text: '工具',
+        link: '/',
+      },
     ],
+
+    sidebar: {
+      '/md/database/': [
+        {
+          text: 'SQL语言',
+          collapsible: true,
+          children: [{
+            text: 'SQL语法',
+            link: '/md/database/basic/sql-lan/sql-language.md',
+          }],
+        },
+
+      ],
+    },
   }),
 
   lang: 'zh-CN',
