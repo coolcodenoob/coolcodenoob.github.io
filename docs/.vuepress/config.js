@@ -15,6 +15,18 @@ export default defineUserConfig({
         link: '/',
       },
       {
+        text: 'Spring',
+        children: [
+          {
+            text: 'Spring Boot',
+            children: [{
+              text: 'Spring Boot入门',
+              link: '/md/spring/springboot/springboot-overview.md',
+            }],
+          },
+        ],
+      },
+      {
         text: '算法',
         link: '/',
       },
@@ -46,7 +58,19 @@ export default defineUserConfig({
             link: '/md/database/basic/sql-lan/sql-language.md',
           }],
         },
-
+      ],
+      '/md/spring/': [
+        {
+          text: 'Spring Boot',
+          children: [{
+            text: '入门',
+            collapsible: true,
+            children: [{
+              text: 'Spring Boot简介',
+              link: '/md/spring/springboot/springboot-overview.md',
+            }],
+          }],
+        },
       ],
     },
   }),
