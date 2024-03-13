@@ -19,6 +19,7 @@ export default defineUserConfig({
         children: [
           {
             text: 'Spring Boot',
+
             children: [{
               text: 'Spring Boot入门',
               link: '/md/spring/springboot/springboot-overview.md',
@@ -44,11 +45,20 @@ export default defineUserConfig({
       },
       {
         text: '工具',
-        link: '/',
+        children: [{
+          text: 'git详解',
+          link: '/md/tools/git.md',
+        }],
+      },
+      {
+        text: '杂谈',
+        link: '/md/extra/overview.md'
       },
     ],
 
+    // 侧边栏
     sidebar: {
+      // 数据库侧边栏
       '/md/database/': [
         {
           text: 'SQL语言',
@@ -59,6 +69,8 @@ export default defineUserConfig({
           }],
         },
       ],
+
+      // spring侧边栏
       '/md/spring/': [
         {
           text: 'Spring Boot',
@@ -68,8 +80,21 @@ export default defineUserConfig({
             children: [{
               text: 'Spring Boot简介',
               link: '/md/spring/springboot/springboot-overview.md',
-            }],
+            },
+            {
+              text: 'MVC版HelloWorld',
+              link: '/md/spring/springboot/helloworld-mvc.md',
+            }
+            ],
           }],
+        },
+      ],
+
+      //工具侧边栏
+      '/md/tools': [
+        {
+          text: 'git详解',
+          link: '/md/tools/git.md'
         },
       ],
     },
