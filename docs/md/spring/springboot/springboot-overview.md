@@ -9,4 +9,4 @@ SpringBoot不是对Spring功能上的增强，而是提供了一种快速使用S
 - **自动配置** Spring Boot的自动配置是一个运行时（更准确地说，是应用程序启动时）的过程，考虑了众多因素，才决定Spring配置应该用哪个，不该用哪个。该过程是Spring自动完成的。
 
 ## 参考资料
-https://pdai.tech/md/spring/springboot/springboot-x-overview.html
+[https://pdai.tech/md/spring/springboot/springboot-x-overview.html](https://pdai.tech/md/spring/springboot/springboot-x-overview.html)

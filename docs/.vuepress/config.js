@@ -84,7 +84,11 @@ export default defineUserConfig({
             {
               text: 'MVC版HelloWorld',
               link: '/md/spring/springboot/helloworld-mvc.md',
-            }
+            },
+            {
+              text: '添加H2内存数据库',
+              link: '/md/spring/springboot/db-h2-jpa.md',
+            },
             ],
           }],
         },
