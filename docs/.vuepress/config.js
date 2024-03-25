@@ -89,6 +89,14 @@ export default defineUserConfig({
               text: '添加H2内存数据库',
               link: '/md/spring/springboot/db-h2-jpa.md',
             },
+            {
+              text: '定制Banner',
+              link: '/md/spring/springboot/springboot-banner.md',
+            },
+            {
+              text: '添加Logback日志',
+              link: '/md/spring/springboot/springboot-logback.md',
+            },
             ],
           }],
         },
