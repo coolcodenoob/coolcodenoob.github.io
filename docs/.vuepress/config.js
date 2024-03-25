@@ -5,6 +5,11 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
+    // 关闭最近更新时间戳
+    lastUpdated: false,
+    // 管理贡献者列表
+    contributors: false,
+
     navbar: [
       {
         text: '首页',
