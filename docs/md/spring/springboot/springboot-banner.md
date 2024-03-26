@@ -3,6 +3,7 @@
 ## 如何更改Banner
 
 在resource文件夹中配置`application.yml`和`banner.txt`文件
+
 application.yml
 ```yml
 spring:
