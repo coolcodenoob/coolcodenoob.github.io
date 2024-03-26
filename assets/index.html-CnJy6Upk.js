@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app-C003L2I_.js";const n={};function o(r,c){return t(),a("div")}const s=e(n,[["render",o],["__file","index.html.vue"]]),m=JSON.parse('{"path":"/","title":"","lang":"zh-CN","frontmatter":{"home":true,"heroImage":"/images/iconh.png"},"headers":[],"git":{},"filePathRelative":"README.md"}');export{s as comp,m as data};
