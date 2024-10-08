@@ -7,7 +7,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     // 关闭最近更新时间戳
     lastUpdated: false,
-    // 管理贡献者列表
+    // 关闭管理贡献者列表
     contributors: false,
 
     navbar: [
@@ -16,104 +16,33 @@ export default defineUserConfig({
         link: '/',
       },
       {
-        text: 'Java',
-        link: '/',
-      },
-      {
-        text: 'Spring',
-        children: [
-          {
-            text: 'Spring Boot',
-
-            children: [{
-              text: 'Spring Boot入门',
-              link: '/md/spring/springboot/springboot-overview.md',
-            }],
-          },
-        ],
-      },
-      {
-        text: '算法',
-        link: '/',
-      },
-      {
-        text: '数据库',
-        children: [
-          {
-            text: '数据库基础',
-            children: [{
-              text: 'SQL语言',
-              link: '/md/database/basic/sql-lan/sql-language.md',
-            }],
-          },
-        ],
-      },
-      {
-        text: '工具',
-        children: [{
-          text: 'git详解',
-          link: '/md/tools/git.md',
-        }],
-      },
-      {
-        text: '杂谈',
-        link: '/md/extra/overview.md'
+        text: '会计',
+        link: '/md/accountant/navigation.md',
       },
     ],
 
     // 侧边栏
     sidebar: {
-      // 数据库侧边栏
-      '/md/database/': [
+      '/md/accountant/': [
         {
-          text: 'SQL语言',
+          text: '导航',
+          link: '/md/accountant/navigation.md',
+        },
+        {
+          text: '会计基础',
           collapsible: true,
-          children: [{
-            text: 'SQL语法',
-            link: '/md/database/basic/sql-lan/sql-language.md',
-          }],
+          children: [
+            {
+              text: '会计核算基础知识',
+              link: '/md/accountant/basic/accounting_basics/accounting_basics.md',
+            },
+            {
+              text: '会计科目表注释整理',
+              link: '/md/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts.md',
+            },
+          ],
         },
-      ],
-
-      // spring侧边栏
-      '/md/spring/': [
-        {
-          text: 'Spring Boot',
-          children: [{
-            text: '入门',
-            collapsible: true,
-            children: [{
-              text: 'Spring Boot简介',
-              link: '/md/spring/springboot/springboot-overview.md',
-            },
-            {
-              text: 'MVC版HelloWorld',
-              link: '/md/spring/springboot/helloworld-mvc.md',
-            },
-            {
-              text: '添加H2内存数据库',
-              link: '/md/spring/springboot/db-h2-jpa.md',
-            },
-            {
-              text: '定制Banner',
-              link: '/md/spring/springboot/springboot-banner.md',
-            },
-            {
-              text: '添加Logback日志',
-              link: '/md/spring/springboot/springboot-logback.md',
-            },
-            ],
-          }],
-        },
-      ],
-
-      //工具侧边栏
-      '/md/tools': [
-        {
-          text: 'git详解',
-          link: '/md/tools/git.md'
-        },
-      ],
+      ]
     },
   }),
 

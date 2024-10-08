@@ -1,0 +1,12 @@
+# 2014-2015年最新会计准则常用会计科目表经典注释整理最新版【大全】
+
+![notes_to_the_chart_of_accounts_1](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-1.png)
+![notes_to_the_chart_of_accounts_2](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-2.png)
+![notes_to_the_chart_of_accounts_3](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-3.png)
+![notes_to_the_chart_of_accounts_4](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-4.png)
+![notes_to_the_chart_of_accounts_5](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-5.png)
+![notes_to_the_chart_of_accounts_6](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-6.png)
+![notes_to_the_chart_of_accounts_7](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-7.png)
+![notes_to_the_chart_of_accounts_8](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-8.png)
+![notes_to_the_chart_of_accounts_9](/images/accountant/basic/notes_to_the_chart_of_accounts/notes_to_the_chart_of_accounts_annotated-9.png)
+
