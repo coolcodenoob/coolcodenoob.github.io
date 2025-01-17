@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://coolcodenoob.github.io/sitemap.xml
