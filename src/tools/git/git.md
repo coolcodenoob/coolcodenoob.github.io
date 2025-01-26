@@ -32,6 +32,12 @@ git pull --rebase
 git push origin xxbranch
 ```
 
+## 学习资料
+
+- 《Pro Git》2nd Edition 英文版：[https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
+- 《Pro Git》2nd Edition 中文版：[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2)
+- [Learn Git Branching](https://learngitbranching.js.org)
+
 ## init
 
 ```bash
